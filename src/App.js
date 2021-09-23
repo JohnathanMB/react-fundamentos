@@ -1,6 +1,6 @@
 import React from 'react';
 //Se debe importar el componente a usar
-import TarjetaFruta from './componentes/TarjetaFrutas'
+import TarjetaFruta from './componentes/TarjetaFruta'
 
 const App = () => (
     <div>
