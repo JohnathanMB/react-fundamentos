@@ -12,9 +12,10 @@ class TarjetaFruta extends React.Component{
     limpiar= () => this.setState({cantidad: 0})
     render(){
         const tieneElementos = this.state.cantidad > 0;
+        const clases = tieneElementos ? 'TarjetaFruta-activa' : 'TarjetaFruta'
 
         return (
-            <div className='TarjetaFruta'>
+            <div className={clases}>
                 <h3>{this.props.name}</h3>
                 <hr/>
                 <div>Cantidad: {this.state.cantidad}</div>
