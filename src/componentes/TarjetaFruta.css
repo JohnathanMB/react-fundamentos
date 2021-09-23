@@ -9,11 +9,6 @@
 }
 
 .TarjetaFruta-activa {
-    border : 1px solid black;
-    margin-bottom : 1em;
-    border-radius : 0.5em;
-    padding: 1em;
     background-color : green;
     color : white;
-    transition : 'all 400ms ease-in-out';
 }
